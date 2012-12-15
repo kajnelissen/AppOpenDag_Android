@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AppICT.iml" filepath="$PROJECT_DIR$/AppICT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AppOpenDag_Android.iml" filepath="$PROJECT_DIR$/AppOpenDag_Android.iml" />
     </modules>
   </component>
 </project>
