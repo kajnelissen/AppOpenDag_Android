@@ -16,32 +16,48 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        //button =(Button)findViewById(R.id.button1);
-        //button.setOnClickListener(new View.OnClickListener() {
-          //  public void onClick(View v) {
+        Button btn_iti = (Button)findViewById(R.id.btn_iti);
+        Button btn_contact = (Button)findViewById(R.id.btn_contact);
+        Button btn_dp = (Button)findViewById(R.id.btn_dp);
+        Button btn_fg = (Button)findViewById(R.id.btn_fg);
+        Button btn_im = (Button)findViewById(R.id.btn_im);
+        Button btn_nid = (Button)findViewById(R.id.btn_nid);
+        Button btn_nvg = (Button)findViewById(R.id.btn_nvg);
+        Button btn_sw = (Button)findViewById(R.id.btn_sw);
 
-           // setContentView(R.layout.nid);
+        btn_iti.setOnClickListener(new View.OnClickListener() {
+           public void onClick(View v) {
 
-                Button button1 = (Button)findViewById(R.id.btn_iti);
-                Button button2 = (Button)findViewById(R.id.btn_contact);
-                Button button3 = (Button)findViewById(R.id.btn_dp);
-                Button button4 = (Button)findViewById(R.id.btn_fg);
-                Button button5 = (Button)findViewById(R.id.btn_im);
-                Button button6 = (Button)findViewById(R.id.btn_nid);
-                Button button7 = (Button)findViewById(R.id.btn_nvg);
-                Button button8 = (Button)findViewById(R.id.btn_sw);
-            }
-        //});
-    public void iti()
-    {
-        Intent i = new Intent(this, iti.class) ;
-        startActivity(i);
+               Intent i = new Intent(this, ITI_Info.class);
+               startActivity(i);
+
+                }});
+
+
+        btn_nid.setOnClickListener(new View.OnClickListener() {
+        public void onClick(View v) {
+
+            Intent i = new Intent(this, NID_Info.class);
+            startActivity(i);
+
+        }});
+
+        btn_im.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+
+                Intent i = new Intent(this, IM_Info.class);
+                startActivity(i);
+
+            }});
     }
+
+}
+        //});
 
     //View.OnClickListener buttonClickListener = new View.OnClickListener(){
       //  public void onClick(View v)
         //{
           //    setContentView(R.layout.nid);
         //}
-    };
+
 
