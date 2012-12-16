@@ -14,22 +14,25 @@
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:text="(Technische) Informatica"
-            android:id="@+id/button" android:layout_gravity="center_vertical|left" android:background="#00a5ef"
+            android:id="@+id/button10" android:layout_gravity="center_vertical|left" android:background="#00a5ef"
             android:clickable="true" android:textColor="#000000" android:textColorHighlight="#000000"
             android:shadowColor="#0077c0"
-            android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/textView1"/>
+            android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/textView1" android:enabled="false"
+            android:layout_alignParentLeft="false" android:longClickable="false"
+            />
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:text="Network Infrastructuur Design"
             android:id="@+id/button1" android:layout_gravity="left|center_vertical" android:background="#00a5ef"
-            android:layout_toRightOf="@+id/button" android:layout_below="@+id/textView1" android:clickable="true"/>
+            android:layout_toRightOf="@+id/button10" android:layout_below="@+id/textView1" android:clickable="true"
+            />
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="50dp"
             android:text="Faculteit ICT"
             android:id="@+id/textView" android:layout_gravity="center" android:textSize="@android:dimen/app_icon_size"
-            android:gravity="center" android:layout_alignLeft="@+id/textView1" android:layout_above="@+id/button2"/>
+            android:gravity="center" android:layout_alignLeft="@+id/textView1" android:layout_below="@+id/button5"/>
     <Button
             android:layout_width="165dp"
             android:layout_height="140dp"
@@ -50,24 +53,24 @@
             android:layout_height="80dp"
             android:text="Information Management"
             android:id="@+id/button4" android:layout_toRightOf="@+id/button1" android:layout_below="@+id/textView1"
-            android:background="#00a5ef" android:clickable="true"/>
+            android:background="#00a5ef" android:clickable="true" android:enabled="false" android:textColor="#000000"/>
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:text="Navagatie"
-            android:id="@+id/button5" android:layout_alignRight="@+id/button" android:layout_below="@+id/button"
+            android:id="@+id/button5" android:layout_alignRight="@+id/button10" android:layout_below="@+id/button10"
             android:background="#00a5ef" android:clickable="true"/>
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:text="Contact"
-            android:id="@+id/button6" android:layout_toRightOf="@+id/button" android:layout_below="@+id/button"
+            android:id="@+id/button6" android:layout_toRightOf="@+id/button10" android:layout_below="@+id/button10"
             android:background="#00a5ef" android:clickable="true"/>
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:text="Foto gallerij"
-            android:id="@+id/button7" android:layout_toRightOf="@+id/button1" android:layout_below="@+id/button"
+            android:id="@+id/button7" android:layout_toRightOf="@+id/button1" android:layout_below="@+id/button10"
             android:background="#00a5ef" android:clickable="true"/>
 </RelativeLayout>
 
