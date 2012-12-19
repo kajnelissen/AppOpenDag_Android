@@ -24,11 +24,23 @@ public class MyActivity extends Activity {
         Button btn_nid = (Button)findViewById(R.id.btn_nid);
         Button btn_nvg = (Button)findViewById(R.id.btn_nvg);
         Button btn_sw = (Button)findViewById(R.id.btn_sw);
+    }
 
-        btn_iti.setOnClickListener(new View.OnClickListener() {
+    public void iti(View v){
+        Intent i = new Intent(this, ITI_Info.class);
+        startActivity(i);
+    }
+
+    public void nid(View v)
+    {
+        Intent i = new Intent(this, NID_Info.class);
+        startActivity(i);
+    }
+
+        /*btn_iti.setOnClickListener(new View.OnClickListener() {
            public void onClick(View v) {
 
-               Intent i = new Intent(this, ITI_Info.class);
+               Intent i = new Intent(v, ITI_Info.class);//Intent(R.layout.main, ITI_Info.class);// Intent(this, ITI_Info.class);
                startActivity(i);
 
                 }});
@@ -48,10 +60,10 @@ public class MyActivity extends Activity {
                 Intent i = new Intent(this, IM_Info.class);
                 startActivity(i);
 
-            }});
+            }});*/
     }
 
-}
+
         //});
 
     //View.OnClickListener buttonClickListener = new View.OnClickListener(){

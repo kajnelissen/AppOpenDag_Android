@@ -12,5 +12,29 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="ITI_Info"
+                  android:label="@string/ITI_Info">
+                  //android:parentActivityName="com.example.AppICT.MyActivity" >
+                   <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+        <activity android:name="NID_Info"
+                  android:label="@string/NID_Info">
+                  //android:parentActivityName="com.example.AppICT.MyActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+        <activity android:name="IM_Info"
+                  android:label="@string/IM_Info">
+                  //android:parentActivityName="com.example.AppICT.MyActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
     </application>
 </manifest> 
