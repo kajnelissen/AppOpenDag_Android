@@ -33,14 +33,9 @@ public class MyActivity extends Activity {
         startActivity(i);
     }
 
-    public void iti(View v){
-        Intent i = new Intent(this, ITI_Info.class);
-        startActivity(i);
-    }
-
-    public void nid(View v)
+    public void zuyd (View v)
     {
-        Intent i = new Intent(this, NID_Info.class);
+        Intent i = new Intent(this, Zuyd_Info.class);
         startActivity(i);
     }
 

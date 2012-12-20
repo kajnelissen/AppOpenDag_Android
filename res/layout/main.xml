@@ -59,5 +59,12 @@
             android:id="@+id/btn_AlleStudies" android:layout_toRightOf="@+id/btn_dp" android:layout_below="@+id/textView"
             android:layout_alignRight="@+id/textView1" android:layout_alignBottom="@+id/btn_dp"
             android:onClick="alleStudies" />
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="Zuyd Hogeschool"
+            android:id="@+id/btn_zuyd" android:layout_toLeftOf="@+id/btn_nvg" android:layout_alignParentTop="true"
+            android:layout_marginTop="27dp" android:background="#00a5ef" android:clickable="true"
+            android:onClick="zuyd"/>
 </RelativeLayout>
 
