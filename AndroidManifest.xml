@@ -14,7 +14,6 @@
         </activity>
         <activity android:name="ITI_Info"
                   android:label="@string/ITI_Info">
-                  //android:parentActivityName="com.example.AppICT.MyActivity" >
                    <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
@@ -22,15 +21,21 @@
         </activity>
         <activity android:name="NID_Info"
                   android:label="@string/NID_Info">
-                  //android:parentActivityName="com.example.AppICT.MyActivity" >
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.example.AppICT.MyActivity" />
+                    android:value="com.example.AppICT.MyActivity.Algemeen_Info" />
 
         </activity>
         <activity android:name="IM_Info"
                   android:label="@string/IM_Info">
-                  //android:parentActivityName="com.example.AppICT.MyActivity" >
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity.Algemeen_Info" />
+
+        </activity>
+
+        <activity android:name=".Algemeen_Info"
+                  android:label="@string/Algemene_Info">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
