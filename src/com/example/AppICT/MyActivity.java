@@ -39,39 +39,21 @@ public class MyActivity extends Activity {
         startActivity(i);
     }
 
-        /*btn_iti.setOnClickListener(new View.OnClickListener() {
-           public void onClick(View v) {
+    public void Contact (View v)
+    {
+        Intent i = new Intent(this, Zuyd_Info.class);
+        startActivity(i);
+    }
 
-               Intent i = new Intent(v, ITI_Info.class);//Intent(R.layout.main, ITI_Info.class);// Intent(this, ITI_Info.class);
-               startActivity(i);
+    public void dagProgramma (View v)
+    {
+        Intent i = new Intent(this, DagProgramma.class);
+        startActivity(i);
+    }
 
-                }});
-
-
-        btn_nid.setOnClickListener(new View.OnClickListener() {
-        public void onClick(View v) {
-
-            Intent i = new Intent(this, NID_Info.class);
-            startActivity(i);
-
-        }});
-
-        btn_im.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-
-                Intent i = new Intent(this, IM_Info.class);
-                startActivity(i);
-
-            }});*/
     }
 
 
-        //});
 
-    //View.OnClickListener buttonClickListener = new View.OnClickListener(){
-      //  public void onClick(View v)
-        //{
-          //    setContentView(R.layout.nid);
-        //}
 
 

@@ -48,5 +48,13 @@
                     android:value="com.example.AppICT.MyActivity" />
 
         </activity>
+
+        <activity android:name="DagProgramma"
+                  android:label="@string/DagProgramma">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
     </application>
 </manifest> 

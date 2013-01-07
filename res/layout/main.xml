@@ -23,7 +23,8 @@
             android:text="Dagprogramma"
             android:id="@+id/btn_dp" android:layout_gravity="left|center_vertical"
             android:layout_weight="0.45"
-            android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+            android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"
+            android:onClick="dagProgramma"/>
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
