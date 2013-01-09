@@ -1,7 +1,10 @@
 package com.example.AppICT;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,6 +20,14 @@ public class IM_Info  extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.im);
+
+        Button btn_home_im = (Button)findViewById(R.id.btn_home_im);
+    }
+
+    public void homeIM (View v)
+    {
+        Intent i = new Intent(this, MyActivity.class);
+        startActivity(i);
     }
 
 }

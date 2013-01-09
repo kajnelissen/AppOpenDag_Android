@@ -9,12 +9,12 @@
             android:layout_width="434dp"
             android:layout_height="wrap_content"
             android:text="Home"
-            android:id="@+id/button" android:layout_gravity="left|center_vertical"
-            android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"/>
+            android:id="@+id/btn_home_iti" android:layout_gravity="left|center_vertical"
+            android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" android:onClick="homeITI"/>
     <WebView
             android:layout_width="115dp"
             android:layout_height="310dp"
             android:id="@+id/webView"
-            android:layout_alignLeft="@+id/button" android:layout_alignParentTop="true"
-            android:layout_alignRight="@+id/button"/>
+            android:layout_alignLeft="@+id/btn_home_iti" android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/btn_home_iti"/>
 </RelativeLayout>

@@ -21,6 +21,14 @@ public class NID_Info extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.nid);
+
+        Button btn_home_nid = (Button)findViewById(R.id.btn_home_nid);
+    }
+
+    public void homeNID (View v)
+    {
+        Intent i = new Intent(this, MyActivity.class);
+        startActivity(i);
     }
 
 }

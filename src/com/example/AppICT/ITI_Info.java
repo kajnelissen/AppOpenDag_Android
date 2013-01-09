@@ -22,6 +22,14 @@ public class ITI_Info extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.iti);
+
+        Button btn_home_iti = (Button)findViewById(R.id.btn_home_iti);
+    }
+
+    public void homeITI (View v)
+    {
+        Intent i = new Intent(this, MyActivity.class);
+        startActivity(i);
     }
 
 }
