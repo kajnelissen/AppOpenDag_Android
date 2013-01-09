@@ -12,5 +12,49 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name="ITI_Info"
+                  android:label="@string/ITI_Info">
+                   <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+        <activity android:name="NID_Info"
+                  android:label="@string/NID_Info">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+        <activity android:name="IM_Info"
+                  android:label="@string/IM_Info">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+
+        <activity android:name=".Algemeen_Info"
+                  android:label="@string/Algemene_Info">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+        <activity android:name="Zuyd_Info"
+                  android:label="@string/Zuyd_Info">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+
+        <activity android:name="DagProgramma"
+                  android:label="@string/DagProgramma">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
     </application>
 </manifest> 
