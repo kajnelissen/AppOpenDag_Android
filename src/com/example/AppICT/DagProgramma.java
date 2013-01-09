@@ -27,5 +27,6 @@ public class DagProgramma extends Activity {
     {
         Intent i = new Intent(this, MyActivity.class);
         startActivity(i);
+        ///
     }
 }
