@@ -51,6 +51,12 @@ public class MyActivity extends Activity {
         startActivity(i);
     }
 
+    public void studiewijzer (View v)
+    {
+        Intent i = new Intent(this, Studiewijzer.class);
+        startActivity(i);
+    }
+
     }
 
 
