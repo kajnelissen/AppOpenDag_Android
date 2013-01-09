@@ -11,4 +11,10 @@
             android:text="Home"
             android:id="@+id/button"
             android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"/>
+    <WebView
+            android:layout_width="115dp"
+            android:layout_height="310dp"
+            android:id="@+id/webView"
+            android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/button"/>
 </RelativeLayout>
