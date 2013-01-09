@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AppICT</string>
+    <string name="ITI_Info">ITI</string>
+    <string name="NID_Info">NID</string>
+    <string name="IM_Info">IM</string>
+    <string name="Algemene_Info">Algemeen</string>
+    <string name="Zuyd_Info">Zuyd</string>
+    <string name="DagProgramma">Dagprogramma</string>
 </resources>
