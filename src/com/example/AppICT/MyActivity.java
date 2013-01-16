@@ -50,10 +50,4 @@ public class MyActivity extends Activity {
         Intent i = new Intent(this, DagProgramma.class);
         startActivity(i);
     }
-
-    }
-
-
-
-
-
+}
