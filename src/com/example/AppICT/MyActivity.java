@@ -57,6 +57,12 @@ public class MyActivity extends Activity {
         startActivity(i);
     }
 
+    public void Fotogallerij(View v)
+    {
+        Intent i = new Intent(this, Foto_Gallerij.class);
+        startActivity(i);
+    }
+
     }
 
 

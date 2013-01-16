@@ -2,32 +2,37 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.example.AppICT"
           android:versionCode="1"
-          android:versionName="1.0">
+          android:versionName="1.0"
+        >
     <uses-sdk android:minSdkVersion="10"/>
     <application android:label="@string/app_name">
         <activity android:name="MyActivity"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name"
+                android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity android:name="ITI_Info"
-                  android:label="@string/ITI_Info">
+                  android:label="@string/ITI_Info"
+                  android:screenOrientation="portrait">
                    <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
 
         </activity>
         <activity android:name="NID_Info"
-                  android:label="@string/NID_Info">
+                  android:label="@string/NID_Info"
+                  android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
 
         </activity>
         <activity android:name="IM_Info"
-                  android:label="@string/IM_Info">
+                  android:label="@string/IM_Info"
+                  android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
@@ -35,14 +40,16 @@
         </activity>
 
         <activity android:name=".Algemeen_Info"
-                  android:label="@string/Algemene_Info">
+                  android:label="@string/Algemene_Info"
+                  android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
 
         </activity>
         <activity android:name="Zuyd_Info"
-                  android:label="@string/Zuyd_Info">
+                  android:label="@string/Zuyd_Info"
+                  android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
@@ -50,7 +57,8 @@
         </activity>
 
         <activity android:name="DagProgramma"
-                  android:label="@string/DagProgramma">
+                  android:label="@string/DagProgramma"
+                  android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />
@@ -58,7 +66,17 @@
         </activity>
 
         <activity android:name="Studiewijzer"
-                  android:label="@string/Studiewijzer">
+                  android:label="@string/Studiewijzer"
+                  android:screenOrientation="portrait">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+
+        <activity android:name="Foto_Gallerij"
+                  android:label="@string/Fotogallerij"
+                  android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.example.AppICT.MyActivity" />

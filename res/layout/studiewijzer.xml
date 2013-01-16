@@ -6,8 +6,8 @@
               android:layout_height="fill_parent" android:background="#00a5ef">
 
     <WebView
-            android:layout_width="390dp"
-            android:layout_height="310dp"
+            android:layout_width="fill_parent"
+            android:layout_height="320dp"
             android:id="@+id/webView" android:layout_gravity="left|center_vertical"
             android:layout_alignParentLeft="true" android:layout_marginLeft="0dp" android:layout_alignParentTop="true"
             android:layout_marginTop="0dp"/>

@@ -26,7 +26,7 @@
             android:onClick="im"
             android:layout_toRightOf="@+id/btn_nid" android:layout_alignTop="@+id/btn_iti"/>
     <WebView
-            android:layout_width="115dp"
+            android:layout_width="fill_parent"
             android:layout_height="290dp"
             android:id="@+id/webView"
             android:background="#00a5ef" android:layout_alignLeft="@+id/btn_iti" android:layout_alignParentTop="true"

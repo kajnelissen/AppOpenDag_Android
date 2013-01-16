@@ -5,10 +5,4 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent" android:background="#00a5ef">
 
-    <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:id="@+id/imageView"
-            android:background="@drawable/zuydlogo"
-            android:layout_alignParentRight="true" android:layout_alignParentTop="true"/>
 </RelativeLayout>

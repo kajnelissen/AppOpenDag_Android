@@ -12,8 +12,8 @@
             android:id="@+id/btn_home_im"
             android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" android:onClick="homeIM"/>
     <WebView
-            android:layout_width="115dp"
-            android:layout_height="310dp"
+            android:layout_width="fill_parent"
+            android:layout_height="320dp"
             android:id="@+id/webView"
             android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
             android:layout_alignRight="@+id/btn_home_im"/>
