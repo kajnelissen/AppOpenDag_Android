@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
+import android.widget.ImageView;
 
 /**
  * Created with IntelliJ IDEA.
@@ -20,7 +22,13 @@ public class Foto_Gallerij extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.foto_gallerij);
 
-        Button btn_home = (Button)findViewById(R.id.btn_home);
+        //Button btn_home = (Button)findViewById(R.id.btn_home);
+        HorizontalScrollView scroll = (HorizontalScrollView)findViewById(R.id.horizontalScrollView);
+
+        ImageView imageview = new ImageView(getApplicationContext());
+         imageview.setImageResource(R.drawable.afdeling);
+
+         scroll.addView(imageview);
     }
 
     public void home (View v)
