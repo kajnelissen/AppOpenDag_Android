@@ -50,4 +50,10 @@ public class MyActivity extends Activity {
         Intent i = new Intent(this, DagProgramma.class);
         startActivity(i);
     }
+
+    public void startSurvey(View v)
+    {
+        Intent i = new Intent(this, SurveyActivity.class);
+        startActivity(i);
+    }
 }
