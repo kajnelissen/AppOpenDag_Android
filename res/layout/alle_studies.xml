@@ -28,7 +28,7 @@
     <WebView
             android:layout_width="fill_parent"
             android:layout_height="290dp"
-            android:id="@+id/webView"
+            android:id="@+id/webView_all"
             android:background="#00a5ef" android:layout_alignLeft="@+id/btn_iti" android:layout_alignParentTop="true"
             android:layout_alignRight="@+id/btn_im"/>
 </RelativeLayout>

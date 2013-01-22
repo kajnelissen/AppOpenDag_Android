@@ -14,7 +14,7 @@
     <WebView
             android:layout_width="fill_parent"
             android:layout_height="320dp"
-            android:id="@+id/webView"
+            android:id="@+id/webView_iti"
             android:layout_alignLeft="@+id/btn_home_iti" android:layout_alignParentTop="true"
             android:layout_alignRight="@+id/btn_home_iti"/>
 </RelativeLayout>

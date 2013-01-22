@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 
 /**
@@ -21,7 +22,9 @@ public class IM_Info  extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.im);
 
-        Button btn_home_im = (Button)findViewById(R.id.btn_home_im);
+        WebView webview = (WebView) findViewById(R.id.webView_im);
+        //webpagina zou nog gepubliceerd worden, dan kan het volgende gedaan worden:
+        //webview.loadUrl();
     }
 
     public void homeIM (View v)

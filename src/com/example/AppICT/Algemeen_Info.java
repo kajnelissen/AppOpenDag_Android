@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 
 /**
  * Created with IntelliJ IDEA.
@@ -18,6 +19,10 @@ public class Algemeen_Info extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.alle_studies);
+
+        WebView webview = (WebView) findViewById(R.id.webView_all);
+        //webpagina zou nog gepubliceerd worden, dan kan het volgende gedaan worden:
+        //webview.loadUrl();
     }
 
     public void iti(View v){

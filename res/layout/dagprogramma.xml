@@ -8,13 +8,13 @@
     <WebView
             android:layout_width="fill_parent"
             android:layout_height="320dp"
-            android:id="@+id/webView"
+            android:id="@+id/webView_dp"
             android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Home"
             android:id="@+id/btn_home"
-            android:layout_alignLeft="@+id/webView" android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/webView" android:onClick="home"/>
+            android:layout_alignLeft="@+id/webView_dp" android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/webView_dp" android:onClick="home"/>
 </RelativeLayout>
