@@ -53,7 +53,7 @@ public class MyActivity extends Activity {
 
     public void studiewijzer (View v)
     {
-        Intent i = new Intent(this, Studiewijzer.class);
+        Intent i = new Intent(this, SurveyActivity.class);
         startActivity(i);
     }
 

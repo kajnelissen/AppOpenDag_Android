@@ -8,5 +8,6 @@
     <string name="Zuyd_Info">Zuyd</string>
     <string name="DagProgramma">Dagprogramma</string>
     <string name="Studiewijzer">Studiewijzer</string>
+    <string name="SurveyActivity">Survey</string>
     <string name="Fotogallerij">Fotogallerij</string>
 </resources>
