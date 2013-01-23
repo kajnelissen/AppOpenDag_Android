@@ -66,8 +66,8 @@
 
         </activity>
 
-        <activity android:name="Studiewijzer"
-                  android:label="@string/Studiewijzer"
+        <activity android:name="SurveyActivity"
+                  android:label="@string/SurveyActivity"
                   android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
