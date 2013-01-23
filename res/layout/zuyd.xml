@@ -6,10 +6,14 @@
               android:layout_height="fill_parent" android:background="#00a5ef">
 
     <ImageView
-            android:layout_width="98dp"
-            android:layout_height="128dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:id="@+id/imageView"
-            android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_marginTop="7dp"
-            android:layout_alignParentLeft="true" android:layout_marginLeft="142dp"
-            android:src="@android:drawable/toast_frame"/>
+            android:background="@drawable/zuydlogo"
+            android:layout_alignParentRight="true" android:layout_alignParentTop="true"/>
+    <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webView" android:layout_alignParentLeft="true" android:layout_alignTop="@+id/imageView"
+            android:layout_toLeftOf="@+id/imageView" android:layout_alignParentBottom="true"/>
 </RelativeLayout>
