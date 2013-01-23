@@ -27,7 +27,7 @@
     <list default="true" id="31bcf569-6b41-41b5-a5a2-60392b633725" name="Default" comment="" />
     <ignored path="AppICT.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358931219770" ignored="false" />
+    <file path="/Dummy.txt" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358942150209" ignored="false" />
     <file path="/main.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1356010069649" ignored="false" />
     <file path="/strings.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358334996015" ignored="false" />
     <file path="/MyActivity.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358334696890" ignored="false" />
@@ -127,10 +127,8 @@
           <file leaf-file-name="SurveySession.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/Model/SurveySession.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="52" selection-start="471" selection-end="471" vertical-scroll-proportion="0.7606727">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="21" column="63" selection-start="309" selection-end="309" vertical-scroll-proportion="0.54333764">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -178,7 +176,7 @@
           <file leaf-file-name="SurveyActivity.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/SurveyActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="39" column="42" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.6631579">
+                <state line="56" column="20" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.51578945">
                   <folding />
                 </state>
               </provider>
@@ -258,6 +256,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,8 +340,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,11 +567,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -590,6 +587,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25703794" sideWeight="0.813364" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15911873" sideWeight="0.813364" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -767,17 +765,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/SurveyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="42" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.6631579">
+        <state line="56" column="20" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.51578945">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Model/SurveySession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="52" selection-start="471" selection-end="471" vertical-scroll-proportion="0.7606727">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="21" column="63" selection-start="309" selection-end="309" vertical-scroll-proportion="0.54333764">
+          <folding />
         </state>
       </provider>
     </entry>
