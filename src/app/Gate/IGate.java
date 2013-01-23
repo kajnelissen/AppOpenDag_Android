@@ -10,9 +10,11 @@ use app.Model;
 public interface IGate {
 	
 	/**
-	 * Maakt verbinding met API van back-end.
+	 * Maakt verbinding met API van back-end en 
+	 * retourneert verbonden instantie van deze 
+	 * interface.
 	 */
-	public static void Connect();
+	public static IGate Connect();
 
 	/**
 	 * Retourneert studiewijzer.
