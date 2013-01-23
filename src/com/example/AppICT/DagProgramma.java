@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 
 /**
@@ -20,13 +21,14 @@ public class DagProgramma extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dagprogramma);
 
-        Button btn_home = (Button)findViewById(R.id.btn_home);
+        WebView webview = (WebView) findViewById(R.id.webView_dp);
+        //webpagina zou nog gepubliceerd worden, dan kan het volgende gedaan worden:
+        //webview.loadUrl();
     }
 
     public void home (View v)
     {
         Intent i = new Intent(this, MyActivity.class);
         startActivity(i);
-        ///
     }
 }

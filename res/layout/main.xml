@@ -31,7 +31,7 @@
             android:text="Studiewijzer"
             android:id="@+id/btn_sw"
             android:layout_alignLeft="@+id/btn_contact" android:layout_alignParentTop="true"
-            android:layout_marginTop="22dp" android:background="#00a5ef"/>
+            android:layout_marginTop="22dp" android:background="#00a5ef" android:onClick="studiewijzer"/>
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
@@ -52,7 +52,7 @@
             android:text="Foto gallerij"
             android:id="@+id/btn_fg"
             android:background="#00a5ef" android:clickable="true"
-            android:layout_toRightOf="@+id/btn_sw" android:layout_above="@+id/textView"/>
+            android:layout_toRightOf="@+id/btn_sw" android:layout_above="@+id/textView" android:onClick="Fotogallerij"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

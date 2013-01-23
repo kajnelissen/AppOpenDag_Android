@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.Button;
 
 /**
@@ -23,7 +24,9 @@ public class ITI_Info extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.iti);
 
-        Button btn_home_iti = (Button)findViewById(R.id.btn_home_iti);
+        WebView webview = (WebView) findViewById(R.id.webView_iti);
+        //webpagina zou nog gepubliceerd worden, dan kan het volgende gedaan worden:
+        //webview.loadUrl();
     }
 
     public void homeITI (View v)
