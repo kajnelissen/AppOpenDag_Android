@@ -9,4 +9,5 @@
     <string name="DagProgramma">Dagprogramma</string>
     <string name="SurveyActivity">Survey</string>
     <string name="Fotogallerij">Fotogallerij</string>
+    <string name="QRScanner">QRScanner</string>
 </resources>

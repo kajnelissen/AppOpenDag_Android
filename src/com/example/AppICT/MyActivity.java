@@ -18,7 +18,7 @@ public class MyActivity extends Activity {
 
         Button btn_iti = (Button)findViewById(R.id.btn_iti);
         Button btn_contact = (Button)findViewById(R.id.btn_contact);
-        Button btn_AlleStudies = (Button)findViewById(R.id.btn_AlleStudies);
+        Button btn_AlleStudies = (Button)findViewById(R.id.btn_AlleStudie);
         Button btn_dp = (Button)findViewById(R.id.btn_dp);
         Button btn_fg = (Button)findViewById(R.id.btn_fg);
         Button btn_im = (Button)findViewById(R.id.btn_im);
@@ -60,6 +60,12 @@ public class MyActivity extends Activity {
     public void Fotogallerij(View v)
     {
         Intent i = new Intent(this, Foto_Gallerij.class);
+        startActivity(i);
+    }
+
+    public void QR_Codes(View v)
+    {
+        Intent i = new Intent(this, QR_Scanner.class);
         startActivity(i);
     }
 

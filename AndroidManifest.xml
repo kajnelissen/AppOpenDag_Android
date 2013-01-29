@@ -83,5 +83,14 @@
                     android:value="com.example.AppICT.MyActivity" />
 
         </activity>
+
+        <activity android:name="QR_Scanner"
+                  android:label="@string/QRScanner"
+                  android:screenOrientation="portrait">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
     </application>
 </manifest> 
