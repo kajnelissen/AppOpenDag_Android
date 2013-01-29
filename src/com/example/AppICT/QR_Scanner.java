@@ -32,7 +32,7 @@ public class QR_Scanner extends Activity {
     {
         try {
 
-           Intent intent = new Intent("com.google.zxing.client.android.SCAN");
+           Intent intent = new Intent("out.production.AppOpenDag_Android.BarcodeScanner4.31");
            intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
            startActivityForResult(intent, 0);
 
