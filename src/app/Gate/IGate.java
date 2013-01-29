@@ -1,6 +1,6 @@
 package app.Gate;
 
-use app.Model;
+import app.Model.*;
 
 /**
  * IGate interface
@@ -14,28 +14,28 @@ public interface IGate {
 	 * retourneert verbonden instantie van deze 
 	 * interface.
 	 */
-	public static IGate Connect();
+	public IGate connect();
 
 	/**
 	 * Retourneert studiewijzer.
 	 */
-	public Survey GetSurvey();
+	public Survey getSurvey();
 
 	/**
 	 * Retourneert de gevraagde studie.
 	 */
-	public Study GetStudy(String name);
+	public Study getStudy(String name);
 
 	/**
 	 * Retourneert het dagprogramma van de komende
 	 * open dag.
 	 */
-	public TimeTable GetTimeTable();
+	public TimeTable getTimeTable();
 
 	/**
 	 * Retourneert navigatieroute die gehanteerd
 	 * wordt op open dagen van faculteit ICT.
 	 */
-	public NavigationRoute GetNavigation();
+	public NavigationRoute getNavigation();
 
 }
