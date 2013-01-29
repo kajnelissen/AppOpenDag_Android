@@ -63,6 +63,11 @@ public class MyActivity extends Activity {
         startActivity(i);
     }
 
+    public void QRscanner(View v)
+    {
+        Intent i = new Intent(this, QRScanner.class);
+        startActivity(i);
+    }
     }
 
 

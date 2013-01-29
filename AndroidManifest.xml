@@ -40,7 +40,7 @@
 
         </activity>
 
-        <activity android:name=".Algemeen_Info"
+        <activity android:name="Algemeen_Info"
                   android:label="@string/Algemene_Info"
                   android:screenOrientation="portrait">
             <meta-data
@@ -77,6 +77,15 @@
 
         <activity android:name="Foto_Gallerij"
                   android:label="@string/Fotogallerij"
+                  android:screenOrientation="portrait">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.example.AppICT.MyActivity" />
+
+        </activity>
+
+        <activity android:name="QRScanner"
+                  android:label="@string/QRScanner"
                   android:screenOrientation="portrait">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"

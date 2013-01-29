@@ -35,10 +35,10 @@
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
-            android:text="Navagatie"
+            android:text="Navigatie"
             android:id="@+id/btn_nvg"
             android:background="#00a5ef" android:clickable="true"
-            android:layout_toRightOf="@+id/btn_fg" android:layout_above="@+id/textView"/>
+            android:layout_toRightOf="@+id/btn_fg" android:layout_above="@+id/textView" android:onClick="QRscanner"/>
     <Button
             android:layout_width="100dp"
             android:layout_height="80dp"
@@ -56,7 +56,7 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ICT Studies"
+            android:text="ICT Studie"
             android:id="@+id/btn_AlleStudies" android:layout_toRightOf="@+id/btn_dp" android:layout_below="@+id/textView"
             android:layout_alignRight="@+id/textView1" android:layout_alignBottom="@+id/btn_dp"
             android:onClick="alleStudies" />
