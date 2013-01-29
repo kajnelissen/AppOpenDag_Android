@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 /**
- * survey
+ * Survey
  *
  * Representeert een studiewijzer in de applicatie. Een studiewijzer bestaat
  * uit een verzameling vragen met daaraan gekoppeld een aantal antwoorden.

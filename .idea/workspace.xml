@@ -47,6 +47,7 @@
     <file path="/Answer.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358944197549" ignored="false" />
     <file path="/IGate.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359457869568" ignored="false" />
     <file path="/Gate.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359458725157" ignored="false" />
+    <file path="/Question.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359460372669" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,18 +109,6 @@
     <leaf>
       <file leaf-file-name="dagprogramma.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/dagprogramma.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nid.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/nid.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
@@ -199,13 +188,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gate.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="19" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.22018349">
+            <state line="81" column="31" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/Model/Question.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="54" selection-start="845" selection-end="845" vertical-scroll-proportion="0.7322946">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -228,7 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java" />
         <option value="$PROJECT_DIR$/src/com/example/AppICT/DagProgramma.java" />
         <option value="$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java" />
         <option value="$PROJECT_DIR$/src/com/example/AppICT/ITI_Info.java" />
@@ -244,6 +241,7 @@
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/app/Gate/IGate.java" />
         <option value="$PROJECT_DIR$/src/app/Gate/Gate.java" />
+        <option value="$PROJECT_DIR$/src/app/Model/Question.java" />
       </list>
     </option>
   </component>
@@ -743,8 +741,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.813099" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.178762" sideWeight="0.6726058" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18530351" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.178762" sideWeight="0.8151448" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18485524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.8146965" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.272655" sideWeight="0.8146965" order="1" side_tool="false" content_ui="tabs" />
@@ -815,13 +813,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="64" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/DagProgramma.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="64" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
@@ -943,10 +934,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="19" selection-start="1351" selection-end="1351" vertical-scroll-proportion="0.22018349">
+        <state line="81" column="31" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="54" selection-start="845" selection-end="845" vertical-scroll-proportion="0.7322946">
+          <folding />
         </state>
       </provider>
     </entry>
