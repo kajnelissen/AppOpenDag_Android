@@ -40,7 +40,7 @@
 
         </activity>
 
-        <activity android:name=".Algemeen_Info"
+        <activity android:name="Algemeen_Info"
                   android:label="@string/Algemene_Info"
                   android:screenOrientation="portrait">
             <meta-data
