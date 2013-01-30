@@ -135,59 +135,43 @@
       <file leaf-file-name="Gate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="44" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1359545027836" expanded="false" signature="654:780" placeholder="/**...*/" />
-                <marker date="1359545027836" expanded="false" signature="882:919" placeholder="/**...*/" />
-                <marker date="1359545027836" expanded="false" signature="1123:1142" placeholder="/**...*/" />
-                <marker date="1359545027836" expanded="false" signature="1211:1246" placeholder="/**...*/" />
-                <marker date="1359545027836" expanded="false" signature="1330:1357" placeholder="/**...*/" />
-                <marker date="1359545027836" expanded="false" signature="1593:1641" placeholder="/**...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Algemeen_Info.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+            <state line="119" column="44" selection-start="2510" selection-end="2510" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IM_Info.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java">
+      <file leaf-file-name="Question.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Model/Question.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+            <state line="46" column="49" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Foto_Gallerij.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
+      <file leaf-file-name="SurveySession.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Model/SurveySession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="13" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="10" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DagProgramma.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/DagProgramma.java">
+      <file leaf-file-name="AppXmlParser.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/Parser/AppXmlParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+            <state line="68" column="76" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.70071256">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NID_Info.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/NID_Info.java">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="403" selection-end="403" vertical-scroll-proportion="0.2743468">
+            <state line="35" column="64" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -322,6 +306,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -657,7 +645,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -746,27 +734,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/ITI_Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="67" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="95" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Model/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/SurveyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="42" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0">
@@ -788,41 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/DagProgramma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Model/NavigationRoute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="99" selection-end="99" vertical-scroll-proportion="0.33870968">
@@ -837,20 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="44" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1359545027836" expanded="false" signature="654:780" placeholder="/**...*/" />
-            <marker date="1359545027836" expanded="false" signature="882:919" placeholder="/**...*/" />
-            <marker date="1359545027836" expanded="false" signature="1123:1142" placeholder="/**...*/" />
-            <marker date="1359545027836" expanded="false" signature="1211:1246" placeholder="/**...*/" />
-            <marker date="1359545027836" expanded="false" signature="1330:1357" placeholder="/**...*/" />
-            <marker date="1359545027836" expanded="false" signature="1593:1641" placeholder="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/ITI_Info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="82" selection-start="806" selection-end="806" vertical-scroll-proportion="0.6235154">
@@ -860,7 +778,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/NID_Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="403" selection-end="403" vertical-scroll-proportion="0.2743468">
+        <state line="37" column="42" selection-start="902" selection-end="902" vertical-scroll-proportion="0.77315915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/DagProgramma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.2743468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="757" selection-end="757" vertical-scroll-proportion="0.024940617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.2743468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="0.15201901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="44" selection-start="2510" selection-end="2510" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="49" selection-start="836" selection-end="836" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/SurveySession.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="64" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Parser/AppXmlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="76" selection-start="1885" selection-end="1885" vertical-scroll-proportion="0.70071256">
           <folding />
         </state>
       </provider>

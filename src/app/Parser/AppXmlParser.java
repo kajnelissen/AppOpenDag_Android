@@ -69,9 +69,9 @@ public class AppXmlParser {
             String name = parser.getName();
             // Starts by looking for the entry tag
             if (name.equals("entry")) {
-                entries.add(this.readEntry(parser));
+                //entries.add(this.readEntry(parser));
             } else {
-                this.skip(parser);
+                //this.skip(parser);
             }
         }
         return entries;
