@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="debug" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="Debug" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
@@ -23,32 +34,36 @@
       </GlobalState>
     </option>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Debug" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="31bcf569-6b41-41b5-a5a2-60392b633725" name="Default" comment="" />
     <ignored path="AppICT.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359536377089" ignored="false" />
+    <file path="/Dummy.txt" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359545051602" ignored="false" />
     <file path="/main.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1356010069649" ignored="false" />
-    <file path="/strings.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461580790" ignored="false" />
-    <file path="/MyActivity.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537345948" ignored="false" />
+    <file path="/strings.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1357917691423" ignored="false" />
+    <file path="/MyActivity.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537131900" ignored="false" />
     <file path="/iti.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1355693878640" ignored="false" />
     <file path="$USER_HOME$/Dropbox/TELECO/com.example.android.sip.WalkieTalkieActivity/project.properties" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1355685259589" ignored="false" />
-    <file path="/fragment.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461681471" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461645146" ignored="false" />
+    <file path="/fragment.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359457691172" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358946054402" ignored="false" />
     <file path="/NID_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865090935" ignored="false" />
-    <file path="/Algemeen_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537604653" ignored="false" />
+    <file path="/Algemeen_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865022206" ignored="false" />
     <file path="/IM_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865063912" ignored="false" />
     <file path="/Zuyd_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1356012109954" ignored="false" />
     <file path="/alle_studies.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1356012769137" ignored="false" />
     <file path="/DagProgramma.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865045624" ignored="false" />
     <file path="/ITI_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865076651" ignored="false" />
     <file path="/Studiewijzer.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1357729113822" ignored="false" />
-    <file path="/Foto_Gallerij.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537490767" ignored="false" />
+    <file path="/Foto_Gallerij.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358864588113" ignored="false" />
     <file path="/Answer.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358944197549" ignored="false" />
     <file path="/IGate.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359457869568" ignored="false" />
-    <file path="/Gate.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359458725157" ignored="false" />
-    <file path="/QRScanner.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537384197" ignored="false" />
-    <file path="/qrscanner.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461254270" ignored="false" />
+    <file path="/Gate.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359539987026" ignored="false" />
+    <file path="/Question.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359460372669" ignored="false" />
+    <file path="/AppXmlParser.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359543458824" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +112,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
@@ -109,73 +123,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="nid.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/nid.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zuyd.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/zuyd.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
+      <file leaf-file-name="IGate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Gate/IGate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+            <state line="15" column="44" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <file leaf-file-name="Gate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="38" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+            <state line="97" column="44" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1359545027836" expanded="false" signature="654:780" placeholder="/**...*/" />
+                <marker date="1359545027836" expanded="false" signature="882:919" placeholder="/**...*/" />
+                <marker date="1359545027836" expanded="false" signature="1123:1142" placeholder="/**...*/" />
+                <marker date="1359545027836" expanded="false" signature="1211:1246" placeholder="/**...*/" />
+                <marker date="1359545027836" expanded="false" signature="1330:1357" placeholder="/**...*/" />
+                <marker date="1359545027836" expanded="false" signature="1593:1641" placeholder="/**...*/" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Algemeen_Info.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="IM_Info.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="118" selection-start="3117" selection-end="3117" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QRScanner.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="38" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+            <state line="16" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -184,30 +169,27 @@
       <file leaf-file-name="Foto_Gallerij.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="68" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+            <state line="27" column="13" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Algemeen_Info.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
+      <file leaf-file-name="DagProgramma.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/DagProgramma.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="58" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.94127804">
+            <state line="16" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="qrscanner.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/qrscanner.xml">
-          <provider editor-type-id="text-editor">
-            <state line="14" column="13" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
+      <file leaf-file-name="NID_Info.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/NID_Info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="403" selection-end="403" vertical-scroll-proportion="0.2743468">
               <folding />
             </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
           </provider>
         </entry>
       </file>
@@ -229,22 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AppICT/ITI_Info.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AppICT/NID_Info.java" />
         <option value="$PROJECT_DIR$/res/layout/alle_studies.xml" />
         <option value="$PROJECT_DIR$/res/layout/im.xml" />
         <option value="$PROJECT_DIR$/res/layout/iti.xml" />
         <option value="$PROJECT_DIR$/res/layout/nid.xml" />
         <option value="$PROJECT_DIR$/res/layout/zuyd.xml" />
         <option value="$PROJECT_DIR$/src/app/Model/Answer.java" />
-        <option value="$PROJECT_DIR$/src/app/Gate/IGate.java" />
-        <option value="$PROJECT_DIR$/src/app/Gate/Gate.java" />
-        <option value="$PROJECT_DIR$/res/layout/qrscanner.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/app/Gate/IGate.java" />
+        <option value="$PROJECT_DIR$/src/app/Model/Question.java" />
         <option value="$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java" />
-        <option value="$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java" />
-        <option value="$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java" />
+        <option value="$PROJECT_DIR$/src/app/Gate/Gate.java" />
+        <option value="$PROJECT_DIR$/src/app/Parser/AppXmlParser.java" />
       </list>
     </option>
   </component>
@@ -252,10 +234,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
-    <option name="height" value="784" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -268,7 +250,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -283,8 +265,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,76 +277,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="External Libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 2.3.3 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppOpenDag_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 2.3.3 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppOpenDag_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 2.3.3 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppOpenDag_Android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; Android 2.3.3 Platform &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="accessibilityservice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -392,6 +304,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AppICT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppOpenDag_Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppOpenDag_Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -659,7 +589,7 @@
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="233_Gingerbread" />
+      <option name="PREFERRED_AVD" value="Gingerbread" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
       <option name="DISABLE_BOOT_ANIMATION" value="false" />
@@ -727,31 +657,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14228936" sideWeight="0.9600639" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15421304" sideWeight="0.9600639" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1843318" sideWeight="0.49816403" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25921658" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.813099" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17806041" sideWeight="0.6726058" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18530351" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17870256" sideWeight="0.8156682" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1843318" sideWeight="0.497552" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.8146965" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.272655" sideWeight="0.8146965" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328341" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25115207" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -816,135 +746,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/iti.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/nid.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dagprogramma.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/survey.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/ITI_Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/SurveyActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="1" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.9032815">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Gate/IGate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="1" selection-start="688" selection-end="688" vertical-scroll-proportion="0.8238342">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/zuyd.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/qrscanner.xml">
-      <provider editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+        <state line="25" column="67" selection-start="584" selection-end="584" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="118" selection-start="3117" selection-end="3117" vertical-scroll-proportion="0.0">
+        <state line="27" column="95" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="26" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/SurveyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="42" selection-start="1587" selection-end="1587" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/Study.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="59" selection-start="156" selection-end="156" vertical-scroll-proportion="0.2992874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="55" selection-start="88" selection-end="88" vertical-scroll-proportion="0.22446556">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="38" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="68" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="58" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.94127804">
+        <state line="19" column="13" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/IM_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="13" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/DagProgramma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Model/NavigationRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="99" selection-end="99" vertical-scroll-proportion="0.33870968">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Gate/IGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="44" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Gate/Gate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="44" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1359545027836" expanded="false" signature="654:780" placeholder="/**...*/" />
+            <marker date="1359545027836" expanded="false" signature="882:919" placeholder="/**...*/" />
+            <marker date="1359545027836" expanded="false" signature="1123:1142" placeholder="/**...*/" />
+            <marker date="1359545027836" expanded="false" signature="1211:1246" placeholder="/**...*/" />
+            <marker date="1359545027836" expanded="false" signature="1330:1357" placeholder="/**...*/" />
+            <marker date="1359545027836" expanded="false" signature="1593:1641" placeholder="/**...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/ITI_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="82" selection-start="806" selection-end="806" vertical-scroll-proportion="0.6235154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/NID_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="403" selection-end="403" vertical-scroll-proportion="0.2743468">
           <folding />
         </state>
       </provider>
