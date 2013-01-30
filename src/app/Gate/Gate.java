@@ -14,6 +14,10 @@ import java.io.BufferedReader;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+import java.io.FileWriter;
+import java.io.BufferedWriter;
+
+
 /**
  * Gate
  *
@@ -89,14 +93,14 @@ public class Gate implements IGate {
 	public NavigationRoute getNavigation()
 	{
         return new NavigationRoute();
-
+    }
 
 	/**
 	 * Testmethode om te kijken
 	 */
 	public void test()
 	{
-		Log.d("Gate", this.callWebService(URL_SURVEY));
+		this.writeToFile(this.callWebService(URL_SURVEY));
 	}
 
 	/**
@@ -178,5 +182,20 @@ public class Gate implements IGate {
     	// response, need to be parsed
     	return buff.toString();
 	}
+
+    private void writeToFile(String data)
+    {
+        try
+        {
+            FileWriter fstream = new FileWriter("C:/androidmeuk.txt"); //true tells to append data.
+            BufferedWriter out = new BufferedWriter(fstream);
+            out.write(data);
+            out.close();
+        }
+        catch (Exception e)
+        {
+            Log.e("meuk", "File write failed: " + e.toString());
+        }
+    }
 
 }
