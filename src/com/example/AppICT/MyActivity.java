@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import app.Gate.Gate;
+import app.Gate.IGate;
 
 public class MyActivity extends Activity {
     /**

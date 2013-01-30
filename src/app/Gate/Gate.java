@@ -22,18 +22,28 @@ import java.net.URISyntaxException;
  */
 public class Gate implements IGate {
 
-	private static String URL_STUDY = "";
-	private static String URL_SURVEY = "";
-	private static String URL_TIMETABLE = "";
-	private static String URL_NAVIGATION = "";
+	private static String URL_STUDY 		= "http://localhost:23128/api/Study";
+	private static String URL_SURVEY 		= "http://localhost:23128/api/Survey";
+	private static String URL_TIMETABLE 	= "http://localhost:23128/api/TimeTable";
+	private static String URL_NAVIGATION 	= "http://localhost:23128/api/Navigation";
 	
 	/**
 	 * Instantieert nieuw Gate object.
 	 */
-	private Gate()
+	public Gate()
 	{
 		// lege constructor
 	}
+
+    /**
+     * Creëert en retourneert een nieuwe instantie van Gate.
+     *
+     * @return Nieuwe instantie van Gate
+     */
+    public static Gate Create()
+    {
+        return new Gate();
+    }
 
 	/**
 	 * Verbindt app met het back-end door middel van een 
@@ -79,12 +89,20 @@ public class Gate implements IGate {
 	public NavigationRoute getNavigation()
 	{
         return new NavigationRoute();
+
+
+	/**
+	 * Testmethode om te kijken
+	 */
+	public void test()
+	{
+		Log.d("Gate", this.callWebService(URL_SURVEY));
 	}
 
 	/**
 	 * 
 	 */
-	private String callWebErvice(String serviceURL)
+	private String callWebService(String serviceURL)
 	{
 		// http get client
     	HttpClient client = new DefaultHttpClient();
