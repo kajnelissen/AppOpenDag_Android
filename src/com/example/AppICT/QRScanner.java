@@ -23,7 +23,9 @@ public class QRScanner extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.qrscanner);
+        setContentView(R.layout.qrscanner);//toon scherm
+
+        //initialisatie van de buttons
         Button scanner = (Button)findViewById(R.id.scanner);
 
     }

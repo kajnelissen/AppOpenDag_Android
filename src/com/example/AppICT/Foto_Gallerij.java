@@ -24,12 +24,13 @@ import android.widget.Toast;
  * Time: 16:16
  * To change this template use File | Settings | File Templates.
  */
+//deze class werkt nog niet, zit een fout in het maken van de horizontalscrollview
 public class Foto_Gallerij extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.foto_gallerij);
+        setContentView(R.layout.foto_gallerij);  //starten van scherm
 
         //Button btn_home = (Button)findViewById(R.id.btn_home);
         HorizontalScrollView scroll = (HorizontalScrollView)findViewById(R.id.horizontalScrollView);

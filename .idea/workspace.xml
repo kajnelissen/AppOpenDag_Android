@@ -30,24 +30,24 @@
     <file path="/Dummy.txt" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359536377089" ignored="false" />
     <file path="/main.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1356010069649" ignored="false" />
     <file path="/strings.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461580790" ignored="false" />
-    <file path="/MyActivity.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537151964" ignored="false" />
+    <file path="/MyActivity.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537345948" ignored="false" />
     <file path="/iti.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1355693878640" ignored="false" />
     <file path="$USER_HOME$/Dropbox/TELECO/com.example.android.sip.WalkieTalkieActivity/project.properties" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1355685259589" ignored="false" />
     <file path="/fragment.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461681471" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461645146" ignored="false" />
     <file path="/NID_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865090935" ignored="false" />
-    <file path="/Algemeen_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865022206" ignored="false" />
+    <file path="/Algemeen_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537604653" ignored="false" />
     <file path="/IM_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865063912" ignored="false" />
     <file path="/Zuyd_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1356012109954" ignored="false" />
     <file path="/alle_studies.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1356012769137" ignored="false" />
     <file path="/DagProgramma.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865045624" ignored="false" />
     <file path="/ITI_Info.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358865076651" ignored="false" />
     <file path="/Studiewijzer.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1357729113822" ignored="false" />
-    <file path="/Foto_Gallerij.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358864588113" ignored="false" />
+    <file path="/Foto_Gallerij.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537490767" ignored="false" />
     <file path="/Answer.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1358944197549" ignored="false" />
     <file path="/IGate.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359457869568" ignored="false" />
     <file path="/Gate.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359458725157" ignored="false" />
-    <file path="/QRScanner.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461470149" ignored="false" />
+    <file path="/QRScanner.java" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359537384197" ignored="false" />
     <file path="/qrscanner.xml" changelist="31bcf569-6b41-41b5-a5a2-60392b633725" time="1359461254270" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,10 +133,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="42" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.9433333">
+            <state line="16" column="42" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,7 +175,25 @@
       <file leaf-file-name="QRScanner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+            <state line="27" column="38" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Foto_Gallerij.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="68" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Algemeen_Info.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="58" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.94127804">
               <folding />
             </state>
           </provider>
@@ -211,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/AppICT/ITI_Info.java" />
-        <option value="$PROJECT_DIR$/src/com/example/AppICT/NID_Info.java" />
         <option value="$PROJECT_DIR$/res/layout/alle_studies.xml" />
         <option value="$PROJECT_DIR$/res/layout/im.xml" />
         <option value="$PROJECT_DIR$/res/layout/iti.xml" />
@@ -221,12 +237,14 @@
         <option value="$PROJECT_DIR$/src/app/Model/Answer.java" />
         <option value="$PROJECT_DIR$/src/app/Gate/IGate.java" />
         <option value="$PROJECT_DIR$/src/app/Gate/Gate.java" />
-        <option value="$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java" />
         <option value="$PROJECT_DIR$/res/layout/qrscanner.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java" />
+        <option value="$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java" />
       </list>
     </option>
   </component>
@@ -709,8 +727,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="7" />
-    <editor active="true" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14228936" sideWeight="0.9600639" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15421304" sideWeight="0.9600639" order="1" side_tool="false" content_ui="tabs" />
@@ -798,23 +816,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="539" selection-end="712" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/im.xml">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/iti.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -886,13 +887,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/qrscanner.xml">
       <provider editor-type-id="text-editor">
         <state line="14" column="13" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0">
@@ -917,6 +911,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="42" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -927,9 +928,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/QRScanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="42" selection-start="2202" selection-end="2202" vertical-scroll-proportion="0.9433333">
+        <state line="27" column="38" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Foto_Gallerij.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="68" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/AppICT/Algemeen_Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="58" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.94127804">
           <folding />
         </state>
       </provider>

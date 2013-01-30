@@ -16,6 +16,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        //initialisatie van de buttons
         Button btn_iti = (Button)findViewById(R.id.btn_iti);
         Button btn_contact = (Button)findViewById(R.id.btn_contact);
         Button btn_AlleStudies = (Button)findViewById(R.id.btn_AlleStudies);
