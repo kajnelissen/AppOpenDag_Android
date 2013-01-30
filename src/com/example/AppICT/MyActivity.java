@@ -16,6 +16,7 @@ public class MyActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
+        //initialisatie van de buttons
         Button btn_iti = (Button)findViewById(R.id.btn_iti);
         Button btn_contact = (Button)findViewById(R.id.btn_contact);
         Button btn_AlleStudies = (Button)findViewById(R.id.btn_AlleStudies);
@@ -33,36 +34,42 @@ public class MyActivity extends Activity {
         startActivity(i);
     }
 
+    //deze methode roept algemene zuyd informatie aan
     public void zuyd (View v)
     {
         Intent i = new Intent(this, Zuyd_Info.class);
         startActivity(i);
     }
 
+    //deze methode roept contact pagina aan
     public void Contact (View v)
     {
         Intent i = new Intent(this, Zuyd_Info.class);
         startActivity(i);
     }
 
+    //deze methode roept dagprogramma aan
     public void dagProgramma (View v)
     {
         Intent i = new Intent(this, DagProgramma.class);
         startActivity(i);
     }
 
+    //deze methode roept de studiewijzer aan
     public void studiewijzer (View v)
     {
         Intent i = new Intent(this, SurveyActivity.class);
         startActivity(i);
     }
 
+    //deze methode roept de fotogallerij aan
     public void Fotogallerij(View v)
     {
         Intent i = new Intent(this, Foto_Gallerij.class);
         startActivity(i);
     }
 
+    //deze methode roept de qr scanner aan
     public void QRscanner(View v)
     {
         Intent i = new Intent(this, QRScanner.class);
