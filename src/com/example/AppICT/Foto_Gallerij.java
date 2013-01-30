@@ -27,7 +27,30 @@ import android.widget.Toast;
 //deze class werkt nog niet, zit een fout in het maken van de horizontalscrollview
 public class Foto_Gallerij extends Activity {
 
-    @Override
+   @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.foto_gallerij);  //starten van scherm
+
+       scroll = (HorizontalScrollView)findViewById(R.id.horizontalScrollView);
+        imageview = new ImageView(getApplicationContext());
+        imageview.setImageResource(R.drawable.afdeling);
+
+       scroll.addView(imageview);
+       //ImageView image = new ImageView(getApplicationContext());
+       //image.setImageResource(R.drawable.zuydlogoict);//.equals(R.drawable.zuydlogoict);
+
+       //scroll.addView(image, 2);
+   }
+    ImageView imageview;
+    HorizontalScrollView scroll;
+
+    public void click(View v)
+    {
+        scroll.setId(1);
+    }
+
+    /*@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.foto_gallerij);  //starten van scherm
@@ -36,14 +59,14 @@ public class Foto_Gallerij extends Activity {
         HorizontalScrollView scroll = (HorizontalScrollView)findViewById(R.id.horizontalScrollView);
 
         ImageView imageview = new ImageView(getApplicationContext());
-         imageview.setImageResource(R.drawable.afdeling);
+         //imageview.setImageResource(R.drawable.afdeling);
 
          scroll.addView(imageview);
         String ExternalStorageDirectoryPath = Environment
                 .getExternalStorageDirectory()
                 .getAbsolutePath();
 
-        String targetPath = ExternalStorageDirectoryPath + "/test/";
+        String targetPath = ExternalStorageDirectoryPath + "/drawable/";
 
         Toast.makeText(getApplicationContext(), targetPath, Toast.LENGTH_LONG).show();
         File targetDirector = new File(targetPath);
@@ -54,14 +77,6 @@ public class Foto_Gallerij extends Activity {
         }
     }
 
-   /* @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec){
-        int parentWidth = MeasureSpec.getSize(widthMeasureSpec);
-        int parentHeight = MeasureSpec.getSize(heightMeasureSpec);
-        this.setMeasuredDimension(parentWidth, parentHeight);
-        this.setLayoutParams(new *ParentLayoutType*.LayoutParams(parentWidth,parentHeight));
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-    }*/
 
     View insertPhoto(String path){
         Bitmap bm = decodeSampledBitmapFromUri(path, 200, 220);
@@ -114,11 +129,5 @@ public class Foto_Gallerij extends Activity {
         }
 
         return inSampleSize;
-    }
-
-    public void home (View v)
-    {
-        Intent i = new Intent(this, MyActivity.class);
-        startActivity(i);
-    }
+    } */
 }
