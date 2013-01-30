@@ -25,17 +25,20 @@ public class Algemeen_Info extends Activity {
         //webview.loadUrl();
     }
 
+    //deze methode roept informatica/technische informatica pagina aan
     public void iti(View v){
         Intent i = new Intent(this, ITI_Info.class);
         startActivity(i);
     }
 
+    //deze methode roept network infrastructuur design pagina aan
     public void nid(View v)
     {
         Intent i = new Intent(this, NID_Info.class);
         startActivity(i);
     }
 
+    //deze methode roept information management pagina aan
     public void im(View v)
     {
         Intent i = new Intent(this, IM_Info.class);
